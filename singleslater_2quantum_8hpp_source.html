@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: include/singleslater/quantum.hpp Source File</title>
+<title>Chronus Doxygen Map: include/singleslater/quantum.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">My Project
+   <div id="projectname">Chronus Doxygen Map
    </div>
   </td>
  </tr>
@@ -249,7 +249,7 @@ $(function() {
 <div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span> </div>
 <div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span>    <span class="comment">// Nuclear contributions to the dipoles</span></div>
 <div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span>    <span class="keywordflow">for</span>(<span class="keyword">auto</span> &amp;atom : this-&gt;molecule().atoms)</div>
-<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span>      MatAdd(<span class="charliteral">&#39;N&#39;</span>,<span class="charliteral">&#39;N&#39;</span>,3,1,1.,&amp;this-&gt;elecDipole[0],3,atom.nucCharge,</div>
+<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span>      MatAdd(<span class="charliteral">&#39;N&#39;</span>,<span class="charliteral">&#39;N&#39;</span>,3,1,1.,&amp;this-&gt;elecDipole[0],3,<span class="keywordtype">double</span>(atom.atomicNumber),</div>
 <div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span>        &amp;atom.coord[0],3,&amp;this-&gt;elecDipole[0],3);</div>
 <div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span> </div>
 <div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span>    <span class="comment">// Electric contribution to the quadrupoles</span></div>
@@ -267,7 +267,7 @@ $(function() {
 <div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>    <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> iXYZ = 0; iXYZ &lt; 3; iXYZ++)</div>
 <div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>    <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> jXYZ = 0; jXYZ &lt; 3; jXYZ++) </div>
 <div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>      this-&gt;elecQuadrupole[iXYZ][jXYZ] +=</div>
-<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>        atom.nucCharge * atom.coord[iXYZ] * atom.coord[jXYZ];</div>
+<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>        atom.atomicNumber * atom.coord[iXYZ] * atom.coord[jXYZ];</div>
 <div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span> </div>
 <div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span>    <span class="comment">// Electric contribution to the octupoles</span></div>
 <div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>    <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> iXYZ = 0, iX = 0; iXYZ &lt; 3; iXYZ++)</div>
@@ -295,7 +295,7 @@ $(function() {
 <div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span>    <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> jXYZ = 0; jXYZ &lt; 3; jXYZ++)</div>
 <div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>    <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> kXYZ = 0; kXYZ &lt; 3; kXYZ++)</div>
 <div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span>      this-&gt;elecOctupole[iXYZ][jXYZ][kXYZ] +=</div>
-<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span>        atom.nucCharge * atom.coord[iXYZ] * atom.coord[jXYZ] *</div>
+<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span>        atom.atomicNumber * atom.coord[iXYZ] * atom.coord[jXYZ] *</div>
 <div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span>        atom.coord[kXYZ];</div>
 <div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>  };</div>
 <div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span> </div>

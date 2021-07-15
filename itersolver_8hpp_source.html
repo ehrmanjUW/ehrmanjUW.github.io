@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: include/itersolver.hpp Source File</title>
+<title>Chronus Doxygen Map: include/itersolver.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">My Project
+   <div id="projectname">Chronus Doxygen Map
    </div>
   </td>
  </tr>
@@ -526,9 +526,9 @@ $(function() {
 <div class="line"><a id="l00461" name="l00461"></a><span class="lineno">  461</span> </div>
 <div class="line"><a id="l00462" name="l00462"></a><span class="lineno">  462</span>    }</div>
 <div class="line"><a id="l00463" name="l00463"></a><span class="lineno">  463</span> </div>
-<div class="line"><a id="l00464" name="l00464"></a><span class="lineno">  464</span>    <span class="keywordtype">void</span> setM(<span class="keywordtype">size_t</span> _m) {</div>
+<div class="line"><a id="l00464" name="l00464"></a><span class="lineno">  464</span>    <span class="keywordtype">void</span> setM(<span class="keywordtype">size_t</span> __m) {</div>
 <div class="line"><a id="l00465" name="l00465"></a><span class="lineno">  465</span> </div>
-<div class="line"><a id="l00466" name="l00466"></a><span class="lineno">  466</span>      m = _m;</div>
+<div class="line"><a id="l00466" name="l00466"></a><span class="lineno">  466</span>      m = __m;</div>
 <div class="line"><a id="l00467" name="l00467"></a><span class="lineno">  467</span>      this-&gt;mSS_ = (3 + m)*this-&gt;nRoots_;</div>
 <div class="line"><a id="l00468" name="l00468"></a><span class="lineno">  468</span> </div>
 <div class="line"><a id="l00469" name="l00469"></a><span class="lineno">  469</span>    }</div>
@@ -620,165 +620,160 @@ $(function() {
 <div class="line"><a id="l00555" name="l00555"></a><span class="lineno">  555</span>    ~<a class="code" href="classChronusQ_1_1Davidson.html">~Davidson</a>() { </div>
 <div class="line"><a id="l00556" name="l00556"></a><span class="lineno">  556</span>    </div>
 <div class="line"><a id="l00557" name="l00557"></a><span class="lineno">  557</span>      <span class="keywordflow">if</span>( RelRes  ) this-&gt;memManager_.<a class="code" href="classChronusQ_1_1CQMemManager.html#a77ab458bc47fd29d0adfd0deb3a8e6f5">free</a>(RelRes);</div>
-<div class="line"><a id="l00558" name="l00558"></a><span class="lineno">  558</span>      <span class="keywordflow">if</span>( Guess   ) this-&gt;memManager_.<a class="code" href="classChronusQ_1_1CQMemManager.html#a77ab458bc47fd29d0adfd0deb3a8e6f5">free</a>(Guess);</div>
-<div class="line"><a id="l00559" name="l00559"></a><span class="lineno">  559</span> </div>
-<div class="line"><a id="l00560" name="l00560"></a><span class="lineno">  560</span>    }</div>
-<div class="line"><a id="l00561" name="l00561"></a><span class="lineno">  561</span> </div>
-<div class="line"><a id="l00562" name="l00562"></a><span class="lineno">  562</span>    <span class="keywordtype">void</span> setM(<span class="keywordtype">size_t</span> _m) {</div>
-<div class="line"><a id="l00563" name="l00563"></a><span class="lineno">  563</span>      m = _m;</div>
-<div class="line"><a id="l00564" name="l00564"></a><span class="lineno">  564</span>      this-&gt;mSS_ = m*this-&gt;nRoots_;</div>
-<div class="line"><a id="l00565" name="l00565"></a><span class="lineno">  565</span>    }</div>
-<div class="line"><a id="l00566" name="l00566"></a><span class="lineno">  566</span>    </div>
-<div class="line"><a id="l00567" name="l00567"></a><span class="lineno">  567</span>    <span class="keywordtype">void</span> setkG(<span class="keywordtype">size_t</span> _kG) {</div>
-<div class="line"><a id="l00568" name="l00568"></a><span class="lineno">  568</span>      kG = _kG;</div>
-<div class="line"><a id="l00569" name="l00569"></a><span class="lineno">  569</span>      this-&gt;nGuess_ = kG*this-&gt;nRoots_;</div>
-<div class="line"><a id="l00570" name="l00570"></a><span class="lineno">  570</span>    }</div>
-<div class="line"><a id="l00571" name="l00571"></a><span class="lineno">  571</span> </div>
-<div class="line"><a id="l00572" name="l00572"></a><span class="lineno">  572</span>    <span class="keywordtype">void</span> setWhenSc(<span class="keywordtype">size_t</span> __WhenSc) { whenSc = __WhenSc;}</div>
-<div class="line"><a id="l00573" name="l00573"></a><span class="lineno">  573</span>    </div>
-<div class="line"><a id="l00574" name="l00574"></a><span class="lineno">  574</span>    <span class="keywordtype">void</span> setEigForT(dcomplex * _Eig) {</div>
-<div class="line"><a id="l00575" name="l00575"></a><span class="lineno">  575</span>      </div>
-<div class="line"><a id="l00576" name="l00576"></a><span class="lineno">  576</span>      <span class="keywordflow">if</span>( this-&gt;memManager_.<a class="code" href="classChronusQ_1_1CQMemManager.html#a38789366b9f173a0e0442002f51263a9">getSize</a>(_Eig) &lt; this-&gt;nGuess_ ) </div>
-<div class="line"><a id="l00577" name="l00577"></a><span class="lineno">  577</span>        CErr(<span class="stringliteral">&quot;Davison EigForT requires a memory block with size at least nGuess &quot;</span>,std::cout);</div>
-<div class="line"><a id="l00578" name="l00578"></a><span class="lineno">  578</span>        </div>
-<div class="line"><a id="l00579" name="l00579"></a><span class="lineno">  579</span>      EigForT = _Eig;</div>
-<div class="line"><a id="l00580" name="l00580"></a><span class="lineno">  580</span>    } </div>
+<div class="line"><a id="l00558" name="l00558"></a><span class="lineno">  558</span>      <span class="keywordflow">if</span>( EigForT ) this-&gt;memManager_.<a class="code" href="classChronusQ_1_1CQMemManager.html#a77ab458bc47fd29d0adfd0deb3a8e6f5">free</a>(EigForT);</div>
+<div class="line"><a id="l00559" name="l00559"></a><span class="lineno">  559</span>      <span class="keywordflow">if</span>( Guess   ) this-&gt;memManager_.<a class="code" href="classChronusQ_1_1CQMemManager.html#a77ab458bc47fd29d0adfd0deb3a8e6f5">free</a>(Guess);</div>
+<div class="line"><a id="l00560" name="l00560"></a><span class="lineno">  560</span> </div>
+<div class="line"><a id="l00561" name="l00561"></a><span class="lineno">  561</span>    }</div>
+<div class="line"><a id="l00562" name="l00562"></a><span class="lineno">  562</span> </div>
+<div class="line"><a id="l00563" name="l00563"></a><span class="lineno">  563</span>    <span class="keywordtype">void</span> setM(<span class="keywordtype">size_t</span> __m) {</div>
+<div class="line"><a id="l00564" name="l00564"></a><span class="lineno">  564</span>      m = __m;</div>
+<div class="line"><a id="l00565" name="l00565"></a><span class="lineno">  565</span>      this-&gt;mSS_ = m*this-&gt;nRoots_;</div>
+<div class="line"><a id="l00566" name="l00566"></a><span class="lineno">  566</span>    }</div>
+<div class="line"><a id="l00567" name="l00567"></a><span class="lineno">  567</span>    </div>
+<div class="line"><a id="l00568" name="l00568"></a><span class="lineno">  568</span>    <span class="keywordtype">void</span> setkG(<span class="keywordtype">size_t</span> __kG) {</div>
+<div class="line"><a id="l00569" name="l00569"></a><span class="lineno">  569</span>      kG = __kG;</div>
+<div class="line"><a id="l00570" name="l00570"></a><span class="lineno">  570</span>      this-&gt;nGuess_ = kG*this-&gt;nRoots_;</div>
+<div class="line"><a id="l00571" name="l00571"></a><span class="lineno">  571</span>    }</div>
+<div class="line"><a id="l00572" name="l00572"></a><span class="lineno">  572</span> </div>
+<div class="line"><a id="l00573" name="l00573"></a><span class="lineno">  573</span>    <span class="keywordtype">void</span> setWhenSc(<span class="keywordtype">size_t</span> __WhenSc) { whenSc = __WhenSc;}</div>
+<div class="line"><a id="l00574" name="l00574"></a><span class="lineno">  574</span>    </div>
+<div class="line"><a id="l00575" name="l00575"></a><span class="lineno">  575</span>    <span class="keywordtype">void</span> alloc() {</div>
+<div class="line"><a id="l00576" name="l00576"></a><span class="lineno">  576</span> </div>
+<div class="line"><a id="l00577" name="l00577"></a><span class="lineno">  577</span>      <a class="code" href="classChronusQ_1_1IterDiagonalizer.html">IterDiagonalizer&lt;_F&gt;::alloc</a>();</div>
+<div class="line"><a id="l00578" name="l00578"></a><span class="lineno">  578</span> </div>
+<div class="line"><a id="l00579" name="l00579"></a><span class="lineno">  579</span>      <span class="comment">// NO MPI</span></div>
+<div class="line"><a id="l00580" name="l00580"></a><span class="lineno">  580</span>      ROOT_ONLY(this-&gt;comm_);</div>
 <div class="line"><a id="l00581" name="l00581"></a><span class="lineno">  581</span> </div>
-<div class="line"><a id="l00582" name="l00582"></a><span class="lineno">  582</span>    <span class="keywordtype">void</span> alloc() {</div>
-<div class="line"><a id="l00583" name="l00583"></a><span class="lineno">  583</span> </div>
-<div class="line"><a id="l00584" name="l00584"></a><span class="lineno">  584</span>      <a class="code" href="classChronusQ_1_1IterDiagonalizer.html">IterDiagonalizer&lt;_F&gt;::alloc</a>();</div>
-<div class="line"><a id="l00585" name="l00585"></a><span class="lineno">  585</span> </div>
-<div class="line"><a id="l00586" name="l00586"></a><span class="lineno">  586</span>      <span class="comment">// NO MPI</span></div>
-<div class="line"><a id="l00587" name="l00587"></a><span class="lineno">  587</span>      ROOT_ONLY(this-&gt;comm_);</div>
+<div class="line"><a id="l00582" name="l00582"></a><span class="lineno">  582</span> </div>
+<div class="line"><a id="l00583" name="l00583"></a><span class="lineno">  583</span>      <span class="comment">// Allocate Davidson specific Memory</span></div>
+<div class="line"><a id="l00584" name="l00584"></a><span class="lineno">  584</span>      this-&gt;RelRes  = this-&gt;memManager_.template malloc&lt;double&gt;(this-&gt;nGuess_);</div>
+<div class="line"><a id="l00585" name="l00585"></a><span class="lineno">  585</span>      this-&gt;EigForT = this-&gt;memManager_.template malloc&lt;dcomplex&gt;(this-&gt;nGuess_);</div>
+<div class="line"><a id="l00586" name="l00586"></a><span class="lineno">  586</span> </div>
+<div class="line"><a id="l00587" name="l00587"></a><span class="lineno">  587</span>    }</div>
 <div class="line"><a id="l00588" name="l00588"></a><span class="lineno">  588</span> </div>
-<div class="line"><a id="l00589" name="l00589"></a><span class="lineno">  589</span>      <span class="comment">// Allocate Davidson specific Memory</span></div>
-<div class="line"><a id="l00590" name="l00590"></a><span class="lineno">  590</span>      this-&gt;RelRes  = this-&gt;memManager_.template malloc&lt;double&gt;(this-&gt;nGuess_);</div>
-<div class="line"><a id="l00591" name="l00591"></a><span class="lineno">  591</span>    }</div>
-<div class="line"><a id="l00592" name="l00592"></a><span class="lineno">  592</span> </div>
-<div class="line"><a id="l00593" name="l00593"></a><span class="lineno">  593</span>    <span class="keywordtype">bool</span> runMicro();</div>
-<div class="line"><a id="l00594" name="l00594"></a><span class="lineno">  594</span> </div>
-<div class="line"><a id="l00595" name="l00595"></a><span class="lineno">  595</span>    <span class="keywordtype">void</span> restart();</div>
-<div class="line"><a id="l00596" name="l00596"></a><span class="lineno">  596</span>    </div>
-<div class="line"><a id="l00597" name="l00597"></a><span class="lineno">  597</span>    <span class="keywordtype">void</span> useEnergySpecific(<span class="keywordtype">size_t</span> nHER, <span class="keywordtype">double</span> energyThd, <span class="keywordtype">double</span> ERef) {</div>
-<div class="line"><a id="l00598" name="l00598"></a><span class="lineno">  598</span>      assert (this-&gt;nRoots_ &gt;= nHER);</div>
-<div class="line"><a id="l00599" name="l00599"></a><span class="lineno">  599</span>      assert (energyThd &gt; 0);</div>
-<div class="line"><a id="l00600" name="l00600"></a><span class="lineno">  600</span>      </div>
-<div class="line"><a id="l00601" name="l00601"></a><span class="lineno">  601</span>      this-&gt;EnergySpecific = <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00602" name="l00602"></a><span class="lineno">  602</span>      this-&gt;nHighERoots    = nHER;</div>
-<div class="line"><a id="l00603" name="l00603"></a><span class="lineno">  603</span>      this-&gt;nLowERoots     = this-&gt;nRoots_ - nHER;</div>
-<div class="line"><a id="l00604" name="l00604"></a><span class="lineno">  604</span>      this-&gt;EnergyRef      = ERef;</div>
-<div class="line"><a id="l00605" name="l00605"></a><span class="lineno">  605</span>    }</div>
-<div class="line"><a id="l00606" name="l00606"></a><span class="lineno">  606</span> </div>
-<div class="line"><a id="l00607" name="l00607"></a><span class="lineno">  607</span>    <span class="keywordtype">void</span> useEnergySpecific(<span class="keywordtype">size_t</span> nHER, <span class="keywordtype">double</span> energyThd) {</div>
-<div class="line"><a id="l00608" name="l00608"></a><span class="lineno">  608</span>      this-&gt;adaptiveERef = <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00609" name="l00609"></a><span class="lineno">  609</span>      this-&gt;useEnergySpecific(nHER, energyThd, 0.);</div>
-<div class="line"><a id="l00610" name="l00610"></a><span class="lineno">  610</span>    }</div>
+<div class="line"><a id="l00589" name="l00589"></a><span class="lineno">  589</span>    <span class="keywordtype">bool</span> runMicro();</div>
+<div class="line"><a id="l00590" name="l00590"></a><span class="lineno">  590</span> </div>
+<div class="line"><a id="l00591" name="l00591"></a><span class="lineno">  591</span>    <span class="keywordtype">void</span> restart();</div>
+<div class="line"><a id="l00592" name="l00592"></a><span class="lineno">  592</span>    </div>
+<div class="line"><a id="l00593" name="l00593"></a><span class="lineno">  593</span>    <span class="keywordtype">void</span> useEnergySpecific(<span class="keywordtype">size_t</span> nHER, <span class="keywordtype">double</span> energyThd, <span class="keywordtype">double</span> ERef) {</div>
+<div class="line"><a id="l00594" name="l00594"></a><span class="lineno">  594</span>      assert (this-&gt;nRoots_ &gt;= nHER);</div>
+<div class="line"><a id="l00595" name="l00595"></a><span class="lineno">  595</span>      assert (energyThd &gt; 0);</div>
+<div class="line"><a id="l00596" name="l00596"></a><span class="lineno">  596</span>      </div>
+<div class="line"><a id="l00597" name="l00597"></a><span class="lineno">  597</span>      this-&gt;EnergySpecific = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00598" name="l00598"></a><span class="lineno">  598</span>      this-&gt;nHighERoots    = nHER;</div>
+<div class="line"><a id="l00599" name="l00599"></a><span class="lineno">  599</span>      this-&gt;nLowERoots     = this-&gt;nRoots_ - nHER;</div>
+<div class="line"><a id="l00600" name="l00600"></a><span class="lineno">  600</span>      this-&gt;EnergyRef      = ERef;</div>
+<div class="line"><a id="l00601" name="l00601"></a><span class="lineno">  601</span>    }</div>
+<div class="line"><a id="l00602" name="l00602"></a><span class="lineno">  602</span> </div>
+<div class="line"><a id="l00603" name="l00603"></a><span class="lineno">  603</span>    <span class="keywordtype">void</span> useEnergySpecific(<span class="keywordtype">size_t</span> nHER, <span class="keywordtype">double</span> energyThd) {</div>
+<div class="line"><a id="l00604" name="l00604"></a><span class="lineno">  604</span>      this-&gt;adaptiveERef = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00605" name="l00605"></a><span class="lineno">  605</span>      this-&gt;useEnergySpecific(nHER, energyThd, 0.);</div>
+<div class="line"><a id="l00606" name="l00606"></a><span class="lineno">  606</span>    }</div>
+<div class="line"><a id="l00607" name="l00607"></a><span class="lineno">  607</span> </div>
+<div class="line"><a id="l00608" name="l00608"></a><span class="lineno">  608</span>    <span class="keywordtype">void</span> doLeftEigenvector() {this-&gt;DoLeftEigVec = <span class="keyword">true</span>; }</div>
+<div class="line"><a id="l00609" name="l00609"></a><span class="lineno">  609</span>    </div>
+<div class="line"><a id="l00610" name="l00610"></a><span class="lineno">  610</span>    <span class="keywordtype">void</span> setGuess(<span class="keywordtype">size_t</span> nGuess, std::function&lt;<span class="keywordtype">void</span>(<span class="keywordtype">size_t</span>,_F*,<span class="keywordtype">size_t</span>)&gt; func) {</div>
 <div class="line"><a id="l00611" name="l00611"></a><span class="lineno">  611</span> </div>
-<div class="line"><a id="l00612" name="l00612"></a><span class="lineno">  612</span>    <span class="keywordtype">void</span> doLeftEigenvector() {this-&gt;DoLeftEigVec = <span class="keyword">true</span>; }</div>
-<div class="line"><a id="l00613" name="l00613"></a><span class="lineno">  613</span>    </div>
-<div class="line"><a id="l00614" name="l00614"></a><span class="lineno">  614</span>    <span class="keywordtype">void</span> setGuess(<span class="keywordtype">size_t</span> nGuess, std::function&lt;<span class="keywordtype">void</span>(<span class="keywordtype">size_t</span>,_F*,<span class="keywordtype">size_t</span>)&gt; func) {</div>
-<div class="line"><a id="l00615" name="l00615"></a><span class="lineno">  615</span> </div>
-<div class="line"><a id="l00616" name="l00616"></a><span class="lineno">  616</span>      <span class="keywordflow">if</span>( nGuess != this-&gt;nGuess_ ) </div>
-<div class="line"><a id="l00617" name="l00617"></a><span class="lineno">  617</span>        CErr(<span class="stringliteral">&quot;Davison Requires nGuess = nGuess_&quot;</span>,std::cout);</div>
-<div class="line"><a id="l00618" name="l00618"></a><span class="lineno">  618</span> </div>
-<div class="line"><a id="l00619" name="l00619"></a><span class="lineno">  619</span>      <span class="comment">// NO MPI</span></div>
-<div class="line"><a id="l00620" name="l00620"></a><span class="lineno">  620</span>      ROOT_ONLY(this-&gt;comm_);</div>
+<div class="line"><a id="l00612" name="l00612"></a><span class="lineno">  612</span>      <span class="keywordflow">if</span>( nGuess != this-&gt;nGuess_ ) </div>
+<div class="line"><a id="l00613" name="l00613"></a><span class="lineno">  613</span>        CErr(<span class="stringliteral">&quot;Davison Requires nGuess = nGuess_&quot;</span>,std::cout);</div>
+<div class="line"><a id="l00614" name="l00614"></a><span class="lineno">  614</span> </div>
+<div class="line"><a id="l00615" name="l00615"></a><span class="lineno">  615</span>      <span class="comment">// NO MPI</span></div>
+<div class="line"><a id="l00616" name="l00616"></a><span class="lineno">  616</span>      ROOT_ONLY(this-&gt;comm_);</div>
+<div class="line"><a id="l00617" name="l00617"></a><span class="lineno">  617</span> </div>
+<div class="line"><a id="l00618" name="l00618"></a><span class="lineno">  618</span>      Guess = this-&gt;memManager_.template malloc&lt;_F&gt;(nGuess * this-&gt;N_);</div>
+<div class="line"><a id="l00619" name="l00619"></a><span class="lineno">  619</span> </div>
+<div class="line"><a id="l00620" name="l00620"></a><span class="lineno">  620</span>      func(nGuess, Guess, this-&gt;N_);</div>
 <div class="line"><a id="l00621" name="l00621"></a><span class="lineno">  621</span> </div>
-<div class="line"><a id="l00622" name="l00622"></a><span class="lineno">  622</span>      Guess = this-&gt;memManager_.template malloc&lt;_F&gt;(nGuess * this-&gt;N_);</div>
+<div class="line"><a id="l00622" name="l00622"></a><span class="lineno">  622</span>    }</div>
 <div class="line"><a id="l00623" name="l00623"></a><span class="lineno">  623</span> </div>
-<div class="line"><a id="l00624" name="l00624"></a><span class="lineno">  624</span>      func(nGuess, Guess, this-&gt;N_);</div>
-<div class="line"><a id="l00625" name="l00625"></a><span class="lineno">  625</span> </div>
-<div class="line"><a id="l00626" name="l00626"></a><span class="lineno">  626</span>    }</div>
+<div class="line"><a id="l00624" name="l00624"></a><span class="lineno">  624</span> </div>
+<div class="line"><a id="l00625" name="l00625"></a><span class="lineno">  625</span>  }; <span class="comment">// Davidson </span></div>
+<div class="line"><a id="l00626" name="l00626"></a><span class="lineno">  626</span> </div>
 <div class="line"><a id="l00627" name="l00627"></a><span class="lineno">  627</span> </div>
-<div class="line"><a id="l00628" name="l00628"></a><span class="lineno">  628</span> </div>
-<div class="line"><a id="l00629" name="l00629"></a><span class="lineno">  629</span>  }; <span class="comment">// Davidson </span></div>
+<div class="line"><a id="l00628" name="l00628"></a><span class="lineno">  628</span>  <span class="keyword">template</span> &lt;<span class="keyword">typename</span> _F&gt;</div>
+<div class="line"><a id="l00629" name="l00629"></a><span class="lineno"><a class="line" href="classChronusQ_1_1GMRES.html">  629</a></span>  <span class="keyword">class </span><a class="code" href="classChronusQ_1_1GMRES.html">GMRES</a> : <span class="keyword">public</span> <a class="code" href="classChronusQ_1_1IterLinearSolver.html">IterLinearSolver</a>&lt;_F&gt; {</div>
 <div class="line"><a id="l00630" name="l00630"></a><span class="lineno">  630</span> </div>
 <div class="line"><a id="l00631" name="l00631"></a><span class="lineno">  631</span> </div>
-<div class="line"><a id="l00632" name="l00632"></a><span class="lineno">  632</span>  <span class="keyword">template</span> &lt;<span class="keyword">typename</span> _F&gt;</div>
-<div class="line"><a id="l00633" name="l00633"></a><span class="lineno"><a class="line" href="classChronusQ_1_1GMRES.html">  633</a></span>  <span class="keyword">class </span><a class="code" href="classChronusQ_1_1GMRES.html">GMRES</a> : <span class="keyword">public</span> <a class="code" href="classChronusQ_1_1IterLinearSolver.html">IterLinearSolver</a>&lt;_F&gt; {</div>
-<div class="line"><a id="l00634" name="l00634"></a><span class="lineno">  634</span> </div>
-<div class="line"><a id="l00635" name="l00635"></a><span class="lineno">  635</span> </div>
-<div class="line"><a id="l00636" name="l00636"></a><span class="lineno">  636</span>    _F * HHR_ = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00637" name="l00637"></a><span class="lineno">  637</span>    _F * U_   = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00638" name="l00638"></a><span class="lineno">  638</span>    _F * W_   = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00639" name="l00639"></a><span class="lineno">  639</span>    _F * J_   = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00640" name="l00640"></a><span class="lineno">  640</span>    _F * R_   = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00641" name="l00641"></a><span class="lineno">  641</span> </div>
-<div class="line"><a id="l00642" name="l00642"></a><span class="lineno">  642</span>  <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00632" name="l00632"></a><span class="lineno">  632</span>    _F * HHR_ = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00633" name="l00633"></a><span class="lineno">  633</span>    _F * U_   = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00634" name="l00634"></a><span class="lineno">  634</span>    _F * W_   = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00635" name="l00635"></a><span class="lineno">  635</span>    _F * J_   = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00636" name="l00636"></a><span class="lineno">  636</span>    _F * R_   = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00637" name="l00637"></a><span class="lineno">  637</span> </div>
+<div class="line"><a id="l00638" name="l00638"></a><span class="lineno">  638</span>  <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00639" name="l00639"></a><span class="lineno">  639</span> </div>
+<div class="line"><a id="l00640" name="l00640"></a><span class="lineno">  640</span>    <span class="keyword">using</span> LinearTrans_t = <span class="keyword">typename</span> IterLinearSolver&lt;_F&gt;::LinearTrans_t;</div>
+<div class="line"><a id="l00641" name="l00641"></a><span class="lineno">  641</span>    <span class="keyword">using</span> Shift_t       = <span class="keyword">typename</span> IterLinearSolver&lt;_F&gt;::Shift_t;</div>
+<div class="line"><a id="l00642" name="l00642"></a><span class="lineno">  642</span> </div>
 <div class="line"><a id="l00643" name="l00643"></a><span class="lineno">  643</span> </div>
-<div class="line"><a id="l00644" name="l00644"></a><span class="lineno">  644</span>    <span class="keyword">using</span> LinearTrans_t = <span class="keyword">typename</span> IterLinearSolver&lt;_F&gt;::LinearTrans_t;</div>
-<div class="line"><a id="l00645" name="l00645"></a><span class="lineno">  645</span>    <span class="keyword">using</span> Shift_t       = <span class="keyword">typename</span> IterLinearSolver&lt;_F&gt;::Shift_t;</div>
-<div class="line"><a id="l00646" name="l00646"></a><span class="lineno">  646</span> </div>
-<div class="line"><a id="l00647" name="l00647"></a><span class="lineno">  647</span> </div>
-<div class="line"><a id="l00648" name="l00648"></a><span class="lineno">  648</span>    <a class="code" href="classChronusQ_1_1GMRES.html">GMRES</a>(</div>
-<div class="line"><a id="l00649" name="l00649"></a><span class="lineno">  649</span>      <a class="code" href="structChronusQ_1_1MPI__Comm.html">MPI_Comm</a> c, </div>
-<div class="line"><a id="l00650" name="l00650"></a><span class="lineno">  650</span>      <a class="code" href="classChronusQ_1_1CQMemManager.html">CQMemManager</a> &amp;mem, </div>
-<div class="line"><a id="l00651" name="l00651"></a><span class="lineno">  651</span>      <span class="keyword">const</span> <span class="keywordtype">size_t</span> N, </div>
-<div class="line"><a id="l00652" name="l00652"></a><span class="lineno">  652</span>      <span class="keyword">const</span> <span class="keywordtype">size_t</span> MSS,</div>
-<div class="line"><a id="l00653" name="l00653"></a><span class="lineno">  653</span>      <span class="keywordtype">double</span> conv, </div>
-<div class="line"><a id="l00654" name="l00654"></a><span class="lineno">  654</span>      <span class="keyword">const</span> LinearTrans_t &amp;linearTrans, </div>
-<div class="line"><a id="l00655" name="l00655"></a><span class="lineno">  655</span>      <span class="keyword">const</span> LinearTrans_t &amp;preNoShift, </div>
-<div class="line"><a id="l00656" name="l00656"></a><span class="lineno">  656</span>      <span class="keyword">const</span> Shift_t &amp;shiftVec = Shift_t()) :</div>
-<div class="line"><a id="l00657" name="l00657"></a><span class="lineno">  657</span>     <a class="code" href="classChronusQ_1_1IterLinearSolver.html">IterLinearSolver&lt;_F&gt;</a>(c,mem,N,MSS,1,MSS,conv,linearTrans,preNoShift,</div>
-<div class="line"><a id="l00658" name="l00658"></a><span class="lineno">  658</span>         shiftVec){ } </div>
-<div class="line"><a id="l00659" name="l00659"></a><span class="lineno">  659</span> </div>
-<div class="line"><a id="l00660" name="l00660"></a><span class="lineno">  660</span>    <a class="code" href="classChronusQ_1_1GMRES.html">GMRES</a>(</div>
-<div class="line"><a id="l00661" name="l00661"></a><span class="lineno">  661</span>      <a class="code" href="structChronusQ_1_1MPI__Comm.html">MPI_Comm</a> c, </div>
-<div class="line"><a id="l00662" name="l00662"></a><span class="lineno">  662</span>      <a class="code" href="classChronusQ_1_1CQMemManager.html">CQMemManager</a> &amp;mem, </div>
-<div class="line"><a id="l00663" name="l00663"></a><span class="lineno">  663</span>      <span class="keyword">const</span> <span class="keywordtype">size_t</span> N, </div>
-<div class="line"><a id="l00664" name="l00664"></a><span class="lineno">  664</span>      <span class="keyword">const</span> <span class="keywordtype">size_t</span> MSS, </div>
-<div class="line"><a id="l00665" name="l00665"></a><span class="lineno">  665</span>      <span class="keywordtype">double</span> conv, </div>
-<div class="line"><a id="l00666" name="l00666"></a><span class="lineno">  666</span>      <span class="keyword">const</span> LinearTrans_t &amp;linearTrans, </div>
-<div class="line"><a id="l00667" name="l00667"></a><span class="lineno">  667</span>      <span class="keyword">const</span> Shift_t &amp;preShift, </div>
-<div class="line"><a id="l00668" name="l00668"></a><span class="lineno">  668</span>      <span class="keyword">const</span> Shift_t &amp;shiftVec = Shift_t()) : </div>
-<div class="line"><a id="l00669" name="l00669"></a><span class="lineno">  669</span>     <a class="code" href="classChronusQ_1_1IterLinearSolver.html">IterLinearSolver&lt;_F&gt;</a>(c,mem,N,MSS,1,MSS,conv,linearTrans,preShift,</div>
-<div class="line"><a id="l00670" name="l00670"></a><span class="lineno">  670</span>         shiftVec){ } </div>
-<div class="line"><a id="l00671" name="l00671"></a><span class="lineno">  671</span> </div>
-<div class="line"><a id="l00672" name="l00672"></a><span class="lineno">  672</span> </div>
-<div class="line"><a id="l00673" name="l00673"></a><span class="lineno">  673</span>    ~<a class="code" href="classChronusQ_1_1GMRES.html">~GMRES</a>() {</div>
-<div class="line"><a id="l00674" name="l00674"></a><span class="lineno">  674</span> </div>
-<div class="line"><a id="l00675" name="l00675"></a><span class="lineno">  675</span>      <span class="keywordflow">if</span>(HHR_)  this-&gt;memManager_.<a class="code" href="classChronusQ_1_1CQMemManager.html#a77ab458bc47fd29d0adfd0deb3a8e6f5">free</a>(HHR_);</div>
-<div class="line"><a id="l00676" name="l00676"></a><span class="lineno">  676</span>      <span class="keywordflow">if</span>(U_  )  this-&gt;memManager_.<a class="code" href="classChronusQ_1_1CQMemManager.html#a77ab458bc47fd29d0adfd0deb3a8e6f5">free</a>(U_);</div>
-<div class="line"><a id="l00677" name="l00677"></a><span class="lineno">  677</span>      <span class="keywordflow">if</span>(W_  )  this-&gt;memManager_.<a class="code" href="classChronusQ_1_1CQMemManager.html#a77ab458bc47fd29d0adfd0deb3a8e6f5">free</a>(W_);</div>
-<div class="line"><a id="l00678" name="l00678"></a><span class="lineno">  678</span>      <span class="keywordflow">if</span>(J_  )  this-&gt;memManager_.<a class="code" href="classChronusQ_1_1CQMemManager.html#a77ab458bc47fd29d0adfd0deb3a8e6f5">free</a>(J_);</div>
-<div class="line"><a id="l00679" name="l00679"></a><span class="lineno">  679</span>      <span class="keywordflow">if</span>(R_  )  this-&gt;memManager_.<a class="code" href="classChronusQ_1_1CQMemManager.html#a77ab458bc47fd29d0adfd0deb3a8e6f5">free</a>(R_);</div>
-<div class="line"><a id="l00680" name="l00680"></a><span class="lineno">  680</span> </div>
-<div class="line"><a id="l00681" name="l00681"></a><span class="lineno">  681</span>    }</div>
-<div class="line"><a id="l00682" name="l00682"></a><span class="lineno">  682</span> </div>
-<div class="line"><a id="l00683" name="l00683"></a><span class="lineno">  683</span> </div>
-<div class="line"><a id="l00684" name="l00684"></a><span class="lineno">  684</span>    <span class="keywordtype">void</span> alloc() {</div>
-<div class="line"><a id="l00685" name="l00685"></a><span class="lineno">  685</span> </div>
-<div class="line"><a id="l00686" name="l00686"></a><span class="lineno">  686</span>      <span class="comment">// Standard linear solver allocations</span></div>
-<div class="line"><a id="l00687" name="l00687"></a><span class="lineno">  687</span>      <a class="code" href="classChronusQ_1_1IterLinearSolver.html">IterLinearSolver&lt;_F&gt;::alloc</a>();</div>
-<div class="line"><a id="l00688" name="l00688"></a><span class="lineno">  688</span> </div>
-<div class="line"><a id="l00689" name="l00689"></a><span class="lineno">  689</span>      <span class="comment">// No MPI for GMRES</span></div>
-<div class="line"><a id="l00690" name="l00690"></a><span class="lineno">  690</span>      ROOT_ONLY(this-&gt;comm_);</div>
-<div class="line"><a id="l00691" name="l00691"></a><span class="lineno">  691</span>      <span class="keywordtype">size_t</span> nBatch = this-&gt;rhsBS * this-&gt;shiftBS;</div>
-<div class="line"><a id="l00692" name="l00692"></a><span class="lineno">  692</span>      <span class="keywordtype">size_t</span> MSSnBatch = this-&gt;mSS_ * nBatch;</div>
-<div class="line"><a id="l00693" name="l00693"></a><span class="lineno">  693</span> </div>
-<div class="line"><a id="l00694" name="l00694"></a><span class="lineno">  694</span>      HHR_ = this-&gt;memManager_.template malloc&lt;_F&gt;(nBatch * this-&gt;N_);</div>
-<div class="line"><a id="l00695" name="l00695"></a><span class="lineno">  695</span> </div>
-<div class="line"><a id="l00696" name="l00696"></a><span class="lineno">  696</span>      J_   = this-&gt;memManager_.template malloc&lt;_F&gt;(2 * MSSnBatch);</div>
-<div class="line"><a id="l00697" name="l00697"></a><span class="lineno">  697</span>      U_   = this-&gt;memManager_.template malloc&lt;_F&gt;(MSSnBatch * this-&gt;N_);</div>
-<div class="line"><a id="l00698" name="l00698"></a><span class="lineno">  698</span>      R_   = this-&gt;memManager_.template malloc&lt;_F&gt;(MSSnBatch * this-&gt;mSS_);</div>
-<div class="line"><a id="l00699" name="l00699"></a><span class="lineno">  699</span>      W_   = this-&gt;memManager_.template malloc&lt;_F&gt;(MSSnBatch + nBatch);</div>
-<div class="line"><a id="l00700" name="l00700"></a><span class="lineno">  700</span> </div>
-<div class="line"><a id="l00701" name="l00701"></a><span class="lineno">  701</span>    }</div>
-<div class="line"><a id="l00702" name="l00702"></a><span class="lineno">  702</span> </div>
-<div class="line"><a id="l00703" name="l00703"></a><span class="lineno">  703</span>    <span class="keywordtype">void</span> runBatch(<span class="keywordtype">size_t</span> nRHS, <span class="keywordtype">size_t</span> nShift, _F* RHS, _F *shifts, </div>
-<div class="line"><a id="l00704" name="l00704"></a><span class="lineno">  704</span>      _F* SOL, <span class="keywordtype">double</span> *RHSNorm );</div>
+<div class="line"><a id="l00644" name="l00644"></a><span class="lineno">  644</span>    <a class="code" href="classChronusQ_1_1GMRES.html">GMRES</a>(</div>
+<div class="line"><a id="l00645" name="l00645"></a><span class="lineno">  645</span>      <a class="code" href="structChronusQ_1_1MPI__Comm.html">MPI_Comm</a> c, </div>
+<div class="line"><a id="l00646" name="l00646"></a><span class="lineno">  646</span>      <a class="code" href="classChronusQ_1_1CQMemManager.html">CQMemManager</a> &amp;mem, </div>
+<div class="line"><a id="l00647" name="l00647"></a><span class="lineno">  647</span>      <span class="keyword">const</span> <span class="keywordtype">size_t</span> N, </div>
+<div class="line"><a id="l00648" name="l00648"></a><span class="lineno">  648</span>      <span class="keyword">const</span> <span class="keywordtype">size_t</span> MSS,</div>
+<div class="line"><a id="l00649" name="l00649"></a><span class="lineno">  649</span>      <span class="keywordtype">double</span> conv, </div>
+<div class="line"><a id="l00650" name="l00650"></a><span class="lineno">  650</span>      <span class="keyword">const</span> LinearTrans_t &amp;linearTrans, </div>
+<div class="line"><a id="l00651" name="l00651"></a><span class="lineno">  651</span>      <span class="keyword">const</span> LinearTrans_t &amp;preNoShift, </div>
+<div class="line"><a id="l00652" name="l00652"></a><span class="lineno">  652</span>      <span class="keyword">const</span> Shift_t &amp;shiftVec = Shift_t()) :</div>
+<div class="line"><a id="l00653" name="l00653"></a><span class="lineno">  653</span>     <a class="code" href="classChronusQ_1_1IterLinearSolver.html">IterLinearSolver&lt;_F&gt;</a>(c,mem,N,MSS,1,MSS,conv,linearTrans,preNoShift,</div>
+<div class="line"><a id="l00654" name="l00654"></a><span class="lineno">  654</span>         shiftVec){ } </div>
+<div class="line"><a id="l00655" name="l00655"></a><span class="lineno">  655</span> </div>
+<div class="line"><a id="l00656" name="l00656"></a><span class="lineno">  656</span>    <a class="code" href="classChronusQ_1_1GMRES.html">GMRES</a>(</div>
+<div class="line"><a id="l00657" name="l00657"></a><span class="lineno">  657</span>      <a class="code" href="structChronusQ_1_1MPI__Comm.html">MPI_Comm</a> c, </div>
+<div class="line"><a id="l00658" name="l00658"></a><span class="lineno">  658</span>      <a class="code" href="classChronusQ_1_1CQMemManager.html">CQMemManager</a> &amp;mem, </div>
+<div class="line"><a id="l00659" name="l00659"></a><span class="lineno">  659</span>      <span class="keyword">const</span> <span class="keywordtype">size_t</span> N, </div>
+<div class="line"><a id="l00660" name="l00660"></a><span class="lineno">  660</span>      <span class="keyword">const</span> <span class="keywordtype">size_t</span> MSS, </div>
+<div class="line"><a id="l00661" name="l00661"></a><span class="lineno">  661</span>      <span class="keywordtype">double</span> conv, </div>
+<div class="line"><a id="l00662" name="l00662"></a><span class="lineno">  662</span>      <span class="keyword">const</span> LinearTrans_t &amp;linearTrans, </div>
+<div class="line"><a id="l00663" name="l00663"></a><span class="lineno">  663</span>      <span class="keyword">const</span> Shift_t &amp;preShift, </div>
+<div class="line"><a id="l00664" name="l00664"></a><span class="lineno">  664</span>      <span class="keyword">const</span> Shift_t &amp;shiftVec = Shift_t()) : </div>
+<div class="line"><a id="l00665" name="l00665"></a><span class="lineno">  665</span>     <a class="code" href="classChronusQ_1_1IterLinearSolver.html">IterLinearSolver&lt;_F&gt;</a>(c,mem,N,MSS,1,MSS,conv,linearTrans,preShift,</div>
+<div class="line"><a id="l00666" name="l00666"></a><span class="lineno">  666</span>         shiftVec){ } </div>
+<div class="line"><a id="l00667" name="l00667"></a><span class="lineno">  667</span> </div>
+<div class="line"><a id="l00668" name="l00668"></a><span class="lineno">  668</span> </div>
+<div class="line"><a id="l00669" name="l00669"></a><span class="lineno">  669</span>    ~<a class="code" href="classChronusQ_1_1GMRES.html">~GMRES</a>() {</div>
+<div class="line"><a id="l00670" name="l00670"></a><span class="lineno">  670</span> </div>
+<div class="line"><a id="l00671" name="l00671"></a><span class="lineno">  671</span>      <span class="keywordflow">if</span>(HHR_)  this-&gt;memManager_.<a class="code" href="classChronusQ_1_1CQMemManager.html#a77ab458bc47fd29d0adfd0deb3a8e6f5">free</a>(HHR_);</div>
+<div class="line"><a id="l00672" name="l00672"></a><span class="lineno">  672</span>      <span class="keywordflow">if</span>(U_  )  this-&gt;memManager_.<a class="code" href="classChronusQ_1_1CQMemManager.html#a77ab458bc47fd29d0adfd0deb3a8e6f5">free</a>(U_);</div>
+<div class="line"><a id="l00673" name="l00673"></a><span class="lineno">  673</span>      <span class="keywordflow">if</span>(W_  )  this-&gt;memManager_.<a class="code" href="classChronusQ_1_1CQMemManager.html#a77ab458bc47fd29d0adfd0deb3a8e6f5">free</a>(W_);</div>
+<div class="line"><a id="l00674" name="l00674"></a><span class="lineno">  674</span>      <span class="keywordflow">if</span>(J_  )  this-&gt;memManager_.<a class="code" href="classChronusQ_1_1CQMemManager.html#a77ab458bc47fd29d0adfd0deb3a8e6f5">free</a>(J_);</div>
+<div class="line"><a id="l00675" name="l00675"></a><span class="lineno">  675</span>      <span class="keywordflow">if</span>(R_  )  this-&gt;memManager_.<a class="code" href="classChronusQ_1_1CQMemManager.html#a77ab458bc47fd29d0adfd0deb3a8e6f5">free</a>(R_);</div>
+<div class="line"><a id="l00676" name="l00676"></a><span class="lineno">  676</span> </div>
+<div class="line"><a id="l00677" name="l00677"></a><span class="lineno">  677</span>    }</div>
+<div class="line"><a id="l00678" name="l00678"></a><span class="lineno">  678</span> </div>
+<div class="line"><a id="l00679" name="l00679"></a><span class="lineno">  679</span> </div>
+<div class="line"><a id="l00680" name="l00680"></a><span class="lineno">  680</span>    <span class="keywordtype">void</span> alloc() {</div>
+<div class="line"><a id="l00681" name="l00681"></a><span class="lineno">  681</span> </div>
+<div class="line"><a id="l00682" name="l00682"></a><span class="lineno">  682</span>      <span class="comment">// Standard linear solver allocations</span></div>
+<div class="line"><a id="l00683" name="l00683"></a><span class="lineno">  683</span>      <a class="code" href="classChronusQ_1_1IterLinearSolver.html">IterLinearSolver&lt;_F&gt;::alloc</a>();</div>
+<div class="line"><a id="l00684" name="l00684"></a><span class="lineno">  684</span> </div>
+<div class="line"><a id="l00685" name="l00685"></a><span class="lineno">  685</span>      <span class="comment">// No MPI for GMRES</span></div>
+<div class="line"><a id="l00686" name="l00686"></a><span class="lineno">  686</span>      ROOT_ONLY(this-&gt;comm_);</div>
+<div class="line"><a id="l00687" name="l00687"></a><span class="lineno">  687</span>      <span class="keywordtype">size_t</span> nBatch = this-&gt;rhsBS * this-&gt;shiftBS;</div>
+<div class="line"><a id="l00688" name="l00688"></a><span class="lineno">  688</span>      <span class="keywordtype">size_t</span> MSSnBatch = this-&gt;mSS_ * nBatch;</div>
+<div class="line"><a id="l00689" name="l00689"></a><span class="lineno">  689</span> </div>
+<div class="line"><a id="l00690" name="l00690"></a><span class="lineno">  690</span>      HHR_ = this-&gt;memManager_.template malloc&lt;_F&gt;(nBatch * this-&gt;N_);</div>
+<div class="line"><a id="l00691" name="l00691"></a><span class="lineno">  691</span> </div>
+<div class="line"><a id="l00692" name="l00692"></a><span class="lineno">  692</span>      J_   = this-&gt;memManager_.template malloc&lt;_F&gt;(2 * MSSnBatch);</div>
+<div class="line"><a id="l00693" name="l00693"></a><span class="lineno">  693</span>      U_   = this-&gt;memManager_.template malloc&lt;_F&gt;(MSSnBatch * this-&gt;N_);</div>
+<div class="line"><a id="l00694" name="l00694"></a><span class="lineno">  694</span>      R_   = this-&gt;memManager_.template malloc&lt;_F&gt;(MSSnBatch * this-&gt;mSS_);</div>
+<div class="line"><a id="l00695" name="l00695"></a><span class="lineno">  695</span>      W_   = this-&gt;memManager_.template malloc&lt;_F&gt;(MSSnBatch + nBatch);</div>
+<div class="line"><a id="l00696" name="l00696"></a><span class="lineno">  696</span> </div>
+<div class="line"><a id="l00697" name="l00697"></a><span class="lineno">  697</span>    }</div>
+<div class="line"><a id="l00698" name="l00698"></a><span class="lineno">  698</span> </div>
+<div class="line"><a id="l00699" name="l00699"></a><span class="lineno">  699</span>    <span class="keywordtype">void</span> runBatch(<span class="keywordtype">size_t</span> nRHS, <span class="keywordtype">size_t</span> nShift, _F* RHS, _F *shifts, </div>
+<div class="line"><a id="l00700" name="l00700"></a><span class="lineno">  700</span>      _F* SOL, <span class="keywordtype">double</span> *RHSNorm );</div>
+<div class="line"><a id="l00701" name="l00701"></a><span class="lineno">  701</span> </div>
+<div class="line"><a id="l00702" name="l00702"></a><span class="lineno">  702</span>  };</div>
+<div class="line"><a id="l00703" name="l00703"></a><span class="lineno">  703</span> </div>
+<div class="line"><a id="l00704" name="l00704"></a><span class="lineno">  704</span>  </div>
 <div class="line"><a id="l00705" name="l00705"></a><span class="lineno">  705</span> </div>
-<div class="line"><a id="l00706" name="l00706"></a><span class="lineno">  706</span>  };</div>
+<div class="line"><a id="l00706" name="l00706"></a><span class="lineno">  706</span>};</div>
 <div class="line"><a id="l00707" name="l00707"></a><span class="lineno">  707</span> </div>
-<div class="line"><a id="l00708" name="l00708"></a><span class="lineno">  708</span>  </div>
-<div class="line"><a id="l00709" name="l00709"></a><span class="lineno">  709</span> </div>
-<div class="line"><a id="l00710" name="l00710"></a><span class="lineno">  710</span>};</div>
-<div class="line"><a id="l00711" name="l00711"></a><span class="lineno">  711</span> </div>
 <div class="ttc" id="aclassChronusQ_1_1CQMemManager_html"><div class="ttname"><a href="classChronusQ_1_1CQMemManager.html">ChronusQ::CQMemManager</a></div><div class="ttdef"><b>Definition:</b> memmanager.hpp:46</div></div>
-<div class="ttc" id="aclassChronusQ_1_1CQMemManager_html_a38789366b9f173a0e0442002f51263a9"><div class="ttname"><a href="classChronusQ_1_1CQMemManager.html#a38789366b9f173a0e0442002f51263a9">ChronusQ::CQMemManager::getSize</a></div><div class="ttdeci">size_t getSize(T *ptr)</div><div class="ttdef"><b>Definition:</b> memmanager.hpp:244</div></div>
 <div class="ttc" id="aclassChronusQ_1_1CQMemManager_html_a77ab458bc47fd29d0adfd0deb3a8e6f5"><div class="ttname"><a href="classChronusQ_1_1CQMemManager.html#a77ab458bc47fd29d0adfd0deb3a8e6f5">ChronusQ::CQMemManager::free</a></div><div class="ttdeci">void free(T *&amp;ptr)</div><div class="ttdef"><b>Definition:</b> memmanager.hpp:187</div></div>
 <div class="ttc" id="aclassChronusQ_1_1Davidson_html"><div class="ttname"><a href="classChronusQ_1_1Davidson.html">ChronusQ::Davidson</a></div><div class="ttdef"><b>Definition:</b> itersolver.hpp:511</div></div>
-<div class="ttc" id="aclassChronusQ_1_1GMRES_html"><div class="ttname"><a href="classChronusQ_1_1GMRES.html">ChronusQ::GMRES</a></div><div class="ttdef"><b>Definition:</b> itersolver.hpp:633</div></div>
+<div class="ttc" id="aclassChronusQ_1_1GMRES_html"><div class="ttname"><a href="classChronusQ_1_1GMRES.html">ChronusQ::GMRES</a></div><div class="ttdef"><b>Definition:</b> itersolver.hpp:629</div></div>
 <div class="ttc" id="aclassChronusQ_1_1GPLHR_html"><div class="ttname"><a href="classChronusQ_1_1GPLHR.html">ChronusQ::GPLHR</a></div><div class="ttdef"><b>Definition:</b> itersolver.hpp:365</div></div>
 <div class="ttc" id="aclassChronusQ_1_1GPLHR_html_a142e8744e947ffede76d6de589b3e950"><div class="ttname"><a href="classChronusQ_1_1GPLHR.html#a142e8744e947ffede76d6de589b3e950">ChronusQ::GPLHR::newSMatrix</a></div><div class="ttdeci">void newSMatrix(size_t N, size_t nR, _F *V, size_t LDV, _F *Q, size_t LDQ, _F *S, size_t LDS, _F *smSCR, size_t LDSCR)</div><div class="ttdoc">Forms a new S matrix in the Krylov-Arnoldi space.</div><div class="ttdef"><b>Definition:</b> gplhr.hpp:921</div></div>
 <div class="ttc" id="aclassChronusQ_1_1GPLHR_html_a1ed7635d615d82f378db872a22a8ecfa"><div class="ttname"><a href="classChronusQ_1_1GPLHR.html#a1ed7635d615d82f378db872a22a8ecfa">ChronusQ::GPLHR::halfProj2</a></div><div class="ttdeci">void halfProj2(size_t N, size_t nV, _F *V, size_t LDV, _F *AV, size_t LDAV, _F *S, size_t LDS, _F *AS, size_t LDAS, _F *smSCR, size_t LDSCR)</div><div class="ttdoc">Overload of halfProj2 where nV == nS.</div><div class="ttdef"><b>Definition:</b> itersolver.hpp:408</div></div>

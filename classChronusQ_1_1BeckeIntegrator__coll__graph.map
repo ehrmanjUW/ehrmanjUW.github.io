@@ -6,7 +6,6 @@
 <area shape="rect" id="node5" href="$classChronusQ_1_1CQMemManager.html" title=" " alt="" coords="283,122,471,149"/>
 <area shape="rect" id="node6" href="$classChronusQ_1_1CustomMemManager.html" title=" " alt="" coords="37,122,143,149"/>
 <area shape="rect" id="node7" href="$structChronusQ_1_1Molecule.html" title="The Molecule struct. Contains information pertinant to the overall molecular structure." alt="" coords="306,173,447,199"/>
-<area shape="rect" id="node8" href="$classChronusQ_1_1SafeFile.html" title=" " alt="" coords="21,173,159,199"/>
-<area shape="rect" id="node9" href="$structChronusQ_1_1BasisSet.html" title="The BasisSet struct. Contains information pertinant for a gaussian type orbital (GTO) basis set." alt="" coords="305,223,448,250"/>
-<area shape="rect" id="node10" href="$structChronusQ_1_1ShellPairData.html" title=" " alt="" coords="5,223,175,250"/>
+<area shape="rect" id="node8" href="$structChronusQ_1_1BasisSet.html" title="The BasisSet struct. Contains information pertinant for a gaussian type orbital (GTO) basis set." alt="" coords="305,223,448,250"/>
+<area shape="rect" id="node9" href="$structChronusQ_1_1ShellPairData.html" title=" " alt="" coords="5,223,175,250"/>
 </map>
