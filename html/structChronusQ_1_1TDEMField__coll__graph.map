@@ -1,0 +1,6 @@
+<map id="ChronusQ::TDEMField&lt; _UnitVector &gt;" name="ChronusQ::TDEMField&lt; _UnitVector &gt;">
+<area shape="rect" id="node1" title="Tensorial specification of an EM field perturbation." alt="" coords="115,169,270,211"/>
+<area shape="rect" id="node2" href="$structChronusQ_1_1TDEMFieldBase.html" title="Base struct for the specification of an electromagnetic field perturbation." alt="" coords="5,87,191,114"/>
+<area shape="rect" id="node3" href="$structChronusQ_1_1EMFieldBase.html" title=" " alt="" coords="109,5,276,32"/>
+<area shape="rect" id="node4" href="$structChronusQ_1_1EMField.html" title=" " alt="" coords="215,80,360,121"/>
+</map>

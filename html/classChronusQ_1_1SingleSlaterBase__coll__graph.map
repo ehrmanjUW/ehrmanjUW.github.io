@@ -1,0 +1,11 @@
+<map id="ChronusQ::SingleSlaterBase" name="ChronusQ::SingleSlaterBase">
+<area shape="rect" id="node1" title="The SingleSlaterBase class. The abstraction of information relating to the SingleSlater class which a..." alt="" coords="1025,107,1215,133"/>
+<area shape="rect" id="node2" href="$classChronusQ_1_1WaveFunctionBase.html" title="The WaveFunctionBase class. The abstraction of information relating to the WaveFunction class which a..." alt="" coords="703,31,905,57"/>
+<area shape="rect" id="node3" href="$classChronusQ_1_1QuantumBase.html" title="The QuantumBase class. The abstraction of information relating to the Quantum class which are indepen..." alt="" coords="481,31,653,57"/>
+<area shape="rect" id="node4" href="$structChronusQ_1_1MPI__Comm.html" title=" " alt="" coords="176,5,335,32"/>
+<area shape="rect" id="node5" href="$classChronusQ_1_1CQMemManager.html" title=" " alt="" coords="161,56,349,83"/>
+<area shape="rect" id="node6" href="$classChronusQ_1_1CustomMemManager.html" title=" " alt="" coords="5,56,112,83"/>
+<area shape="rect" id="node7" href="$classChronusQ_1_1SafeFile.html" title=" " alt="" coords="735,81,873,108"/>
+<area shape="rect" id="node8" href="$structChronusQ_1_1SCFControls.html" title="A struct to hold the information pertaining to the control of an SCF procedure." alt="" coords="721,132,887,159"/>
+<area shape="rect" id="node9" href="$structChronusQ_1_1SCFConvergence.html" title="A struct to hold the current status of an SCF procedure." alt="" coords="707,183,901,209"/>
+</map>

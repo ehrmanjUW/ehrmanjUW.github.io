@@ -1,0 +1,17 @@
+<map id="ChronusQ::SingleSlater&lt; MatsT, IntsT &gt;" name="ChronusQ::SingleSlater&lt; MatsT, IntsT &gt;">
+<area shape="rect" id="node1" title="The SingleSlater class. The typed abstract interface for all classes for which the wave function is d..." alt="" coords="1367,192,1525,233"/>
+<area shape="rect" id="node2" href="$classChronusQ_1_1SingleSlaterBase.html" title="The SingleSlaterBase class. The abstraction of information relating to the SingleSlater class which a..." alt="" coords="1067,199,1256,226"/>
+<area shape="rect" id="node3" href="$classChronusQ_1_1WaveFunctionBase.html" title="The WaveFunctionBase class. The abstraction of information relating to the WaveFunction class which a..." alt="" coords="744,71,947,98"/>
+<area shape="rect" id="node11" href="$classChronusQ_1_1WaveFunction.html" title="The WaveFunction class. The typed abstract interface for all classes which admit a well defined wave ..." alt="" coords="1075,84,1247,125"/>
+<area shape="rect" id="node4" href="$classChronusQ_1_1QuantumBase.html" title="The QuantumBase class. The abstraction of information relating to the Quantum class which are indepen..." alt="" coords="481,53,653,79"/>
+<area shape="rect" id="node12" href="$classChronusQ_1_1Quantum.html" title="The Quantum class. The typed abstract interface for all classes which can define a 1PDM and compute 1..." alt="" coords="770,5,921,47"/>
+<area shape="rect" id="node5" href="$structChronusQ_1_1MPI__Comm.html" title=" " alt="" coords="176,29,335,55"/>
+<area shape="rect" id="node6" href="$classChronusQ_1_1CQMemManager.html" title=" " alt="" coords="161,79,349,106"/>
+<area shape="rect" id="node7" href="$classChronusQ_1_1CustomMemManager.html" title=" " alt="" coords="5,79,112,106"/>
+<area shape="rect" id="node8" href="$classChronusQ_1_1SafeFile.html" title=" " alt="" coords="499,154,636,181"/>
+<area shape="rect" id="node13" href="$structChronusQ_1_1Molecule.html" title="The Molecule struct. Contains information pertinant to the overall molecular structure." alt="" coords="775,122,916,149"/>
+<area shape="rect" id="node9" href="$structChronusQ_1_1SCFControls.html" title="A struct to hold the information pertaining to the control of an SCF procedure." alt="" coords="763,286,928,313"/>
+<area shape="rect" id="node10" href="$structChronusQ_1_1SCFConvergence.html" title="A struct to hold the current status of an SCF procedure." alt="" coords="749,173,942,199"/>
+<area shape="rect" id="node14" href="$structChronusQ_1_1BasisSet.html" title="The BasisSet struct. Contains information pertinant for a gaussian type orbital (GTO) basis set." alt="" coords="1090,281,1233,307"/>
+<area shape="rect" id="node15" href="$structChronusQ_1_1ShellPairData.html" title=" " alt="" coords="761,337,930,363"/>
+</map>

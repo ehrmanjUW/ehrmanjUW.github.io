@@ -1,0 +1,6 @@
+<map id="ChronusQ::QuantumBase" name="ChronusQ::QuantumBase">
+<area shape="rect" id="node1" title="The QuantumBase class. The abstraction of information relating to the Quantum class which are indepen..." alt="" coords="65,171,237,197"/>
+<area shape="rect" id="node2" href="$structChronusQ_1_1MPI__Comm.html" title=" " alt="" coords="5,81,164,108"/>
+<area shape="rect" id="node3" href="$classChronusQ_1_1CQMemManager.html" title=" " alt="" coords="188,81,376,108"/>
+<area shape="rect" id="node4" href="$classChronusQ_1_1CustomMemManager.html" title=" " alt="" coords="229,5,335,32"/>
+</map>

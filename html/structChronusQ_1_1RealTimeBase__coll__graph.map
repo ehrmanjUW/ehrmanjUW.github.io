@@ -1,0 +1,11 @@
+<map id="ChronusQ::RealTimeBase" name="ChronusQ::RealTimeBase">
+<area shape="rect" id="node1" title=" " alt="" coords="503,157,677,184"/>
+<area shape="rect" id="node2" href="$classChronusQ_1_1SafeFile.html" title=" " alt="" coords="194,5,331,32"/>
+<area shape="rect" id="node3" href="$structChronusQ_1_1IntegrationScheme.html" title="A struct to store information pertinent to the time propagation procedure." alt="" coords="163,56,362,83"/>
+<area shape="rect" id="node4" href="$structChronusQ_1_1TDEMPerturbation.html" title="Full specification of the time&#45;dependent EM perturbation for a RealTime simulation." alt="" coords="164,107,361,133"/>
+<area shape="rect" id="node5" href="$structChronusQ_1_1EMPerturbation.html" title="Full specification of a static EM perturbation." alt="" coords="173,157,352,184"/>
+<area shape="rect" id="node6" href="$structChronusQ_1_1IntegrationProgress.html" title="A struct to store information pertinent to the current state of the time propagation." alt="" coords="161,208,364,235"/>
+<area shape="rect" id="node7" href="$structChronusQ_1_1IntegrationData.html" title="A struct to store the property data obtained throughout the RealTime simulation." alt="" coords="173,259,352,285"/>
+<area shape="rect" id="node8" href="$classChronusQ_1_1CQMemManager.html" title=" " alt="" coords="169,309,357,336"/>
+<area shape="rect" id="node9" href="$classChronusQ_1_1CustomMemManager.html" title=" " alt="" coords="5,309,112,336"/>
+</map>

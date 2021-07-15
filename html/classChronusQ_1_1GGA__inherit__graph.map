@@ -1,0 +1,13 @@
+<map id="ChronusQ::GGA" name="ChronusQ::GGA">
+<area shape="rect" id="node1" title="Base class for all GGA functionals." alt="" coords="228,208,347,235"/>
+<area shape="rect" id="node3" href="$classChronusQ_1_1B3LYP.html" title=" " alt="" coords="415,5,545,32"/>
+<area shape="rect" id="node4" href="$classChronusQ_1_1B3PW91.html" title=" " alt="" coords="409,56,551,83"/>
+<area shape="rect" id="node5" href="$classChronusQ_1_1BEightyEight.html" title=" " alt="" coords="397,107,563,133"/>
+<area shape="rect" id="node6" href="$classChronusQ_1_1BHANDH.html" title=" " alt="" coords="407,157,553,184"/>
+<area shape="rect" id="node7" href="$classChronusQ_1_1BHANDHLYP.html" title=" " alt="" coords="395,208,565,235"/>
+<area shape="rect" id="node8" href="$classChronusQ_1_1LYP.html" title=" " alt="" coords="423,259,537,285"/>
+<area shape="rect" id="node9" href="$classChronusQ_1_1PBE0.html" title=" " alt="" coords="419,309,541,336"/>
+<area shape="rect" id="node10" href="$classChronusQ_1_1PBEC.html" title=" " alt="" coords="417,360,543,387"/>
+<area shape="rect" id="node11" href="$classChronusQ_1_1PBEX.html" title=" " alt="" coords="417,411,543,437"/>
+<area shape="rect" id="node2" href="$classChronusQ_1_1DFTFunctional.html" title="Implements a DFT functional." alt="" coords="5,208,180,235"/>
+</map>

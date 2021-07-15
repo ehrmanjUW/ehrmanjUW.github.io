@@ -1,0 +1,10 @@
+<map id="ChronusQ::WaveFunctionBase" name="ChronusQ::WaveFunctionBase">
+<area shape="rect" id="node1" title="The WaveFunctionBase class. The abstraction of information relating to the WaveFunction class which a..." alt="" coords="101,80,304,107"/>
+<area shape="rect" id="node3" href="$classChronusQ_1_1SingleSlaterBase.html" title="The SingleSlaterBase class. The abstraction of information relating to the SingleSlater class which a..." alt="" coords="5,162,195,189"/>
+<area shape="rect" id="node7" href="$classChronusQ_1_1WaveFunction.html" title="The WaveFunction class. The typed abstract interface for all classes which admit a well defined wave ..." alt="" coords="219,155,391,196"/>
+<area shape="rect" id="node2" href="$classChronusQ_1_1QuantumBase.html" title="The QuantumBase class. The abstraction of information relating to the Quantum class which are indepen..." alt="" coords="117,5,289,32"/>
+<area shape="rect" id="node4" href="$classChronusQ_1_1SingleSlater.html" title="The SingleSlater class. The typed abstract interface for all classes for which the wave function is d..." alt="" coords="31,244,190,285"/>
+<area shape="rect" id="node5" href="$classChronusQ_1_1HartreeFock.html" title=" " alt="" coords="30,333,191,375"/>
+<area shape="rect" id="node6" href="$classChronusQ_1_1KohnSham.html" title=" " alt="" coords="215,333,369,375"/>
+<area shape="rect" id="node8" href="$classChronusQ_1_1SingleSlater.html" title="The SingleSlater class. The typed abstract interface for all classes for which the wave function is d..." alt="" coords="214,244,373,285"/>
+</map>
